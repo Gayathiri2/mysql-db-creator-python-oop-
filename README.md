@@ -1,22 +1,32 @@
-# 📦 MySQL Database Management System with Python
+# 🗃️ MySQL Database Management with Python
 
-A simple command-line based **CRUD application** built using **Python** and **MySQL**, allowing users to manage personal data records such as name, age, address, contact, and email. The project uses the `mysql-connector-python` package for database interaction and `tabulate` for clean tabular output.
-
----
-
-## 🛠 Features
-
-- ✅ Insert new records into the database
-- 🔍 View all records in a formatted table
-- ✏️ Update specific fields (Name, Age, Address, Contact, Mail)
-- ❌ Delete records by ID
-- 🔁 Menu-driven loop for user-friendly interaction
+This is a command-line based CRUD (Create, Read, Update, Delete) application built using **Python** and **MySQL**. It allows users to manage personal data records efficiently through a simple menu interface. This project demonstrates the use of database connectivity, structured querying, and modular Python programming.
 
 ---
 
-## 📂 Table Structure (MySQL)
+## 🚀 Project Overview
 
-Before running the script, ensure your MySQL database has a table named `data` with the following structure:
+- 🔄 Fully interactive CLI for managing records
+- 📥 Insert new entries (Name, Age, Address, Contact, Mail)
+- 📋 View all records in a formatted table (`tabulate`)
+- 🛠 Update specific fields by selecting ID
+- 🗑 Delete records from the database
+- 💾 Persistent storage using a MySQL database
+
+---
+
+## 🏗️ Technologies Used
+
+| Technology      | Purpose                      |
+|------------------|-------------------------------|
+| Python           | Core programming language     |
+| MySQL            | Relational database backend   |
+| `mysql.connector`| Database connection in Python |
+| `tabulate`       | Displaying tabular data       |
+
+---
+
+## 🧱 MySQL Table Structure
 
 ```sql
 CREATE TABLE data (
