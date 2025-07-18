@@ -1,21 +1,21 @@
-# 🗃️ MySQL Database Management with Python
+#  MySQL Database Management with Python
 
 This is a command-line based CRUD (Create, Read, Update, Delete) application built using **Python** and **MySQL**. It allows users to manage personal data records efficiently through a simple menu interface. This project demonstrates the use of database connectivity, structured querying, and modular Python programming.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
-- 🔄 Fully interactive CLI for managing records
-- 📥 Insert new entries (Name, Age, Address, Contact, Mail)
-- 📋 View all records in a formatted table (`tabulate`)
-- 🛠 Update specific fields by selecting ID
-- 🗑 Delete records from the database
-- 💾 Persistent storage using a MySQL database
+-  Fully interactive CLI for managing records
+-  Insert new entries (Name, Age, Address, Contact, Mail)
+-  View all records in a formatted table (`tabulate`)
+-  Update specific fields by selecting ID
+-  Delete records from the database
+-  Persistent storage using a MySQL database
 
 ---
 
-## 🏗️ Technologies Used
+##  Technologies Used
 
 | Technology      | Purpose                      |
 |------------------|-------------------------------|
@@ -26,7 +26,7 @@ This is a command-line based CRUD (Create, Read, Update, Delete) application bui
 
 ---
 
-## 🧱 MySQL Table Structure
+##  MySQL Table Structure
 
 ```sql
 CREATE TABLE data (
